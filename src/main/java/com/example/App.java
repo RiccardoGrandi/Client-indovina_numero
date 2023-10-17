@@ -21,8 +21,6 @@ public class App
 
             Scanner scanner = new Scanner(System.in);
             
-            
-
             do {
                 System.out.println("Inserisci il numero: ");
                 String userNum = scanner.nextLine(); 
@@ -39,7 +37,7 @@ public class App
 
             } while (conv != 3);            
             
-            System.out.println("HAI INDOVINATO IN " + in.readLine() + "tentativi");
+            System.out.println("HAI INDOVINATO IN " + in.readLine() + " tentativi");
 
             s.close();
         } catch (Exception e) {
